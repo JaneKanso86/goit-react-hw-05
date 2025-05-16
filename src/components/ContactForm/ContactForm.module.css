@@ -1,0 +1,29 @@
+.card {
+  width: 290px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 10px 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.field {
+  margin-bottom: 7px;
+}
+
+.button {
+  max-width: 100px;
+  font-size: 11px;
+  margin: 0 auto;
+}
+
+.error {
+  color: red;
+  font-size: 10px;
+  margin-top: -7px;
+}
